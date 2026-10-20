@@ -11,7 +11,7 @@ Video: _link coming soon_
 No dependencies to install. You need Node.js 20 or newer.
 
 ```bash
-git clone https://github.com/<your-username>/domlok-callback-hydra.git
+git clone https://github.com/mbdomlok-source/domlok-callback-hydra.git
 cd domlok-callback-hydra
 npm run step:1
 ```
