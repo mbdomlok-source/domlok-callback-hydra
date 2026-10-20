@@ -1,0 +1,31 @@
+{
+  "name": "domlok-callback-hydra",
+  "version": "1.0.0",
+  "description": "Companion code for Domlok: The Callback Hydra. Untangle nested callbacks with Promises, async/await and Promise.all.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "step:1": "node steps/01-callbacks.js",
+    "step:2": "node steps/02-another-head.js",
+    "step:3": "node steps/03-why-it-hurts.js",
+    "step:4": "node steps/04-promises.js",
+    "step:5": "node steps/05-async-await.js",
+    "step:6": "node steps/06-promise-all.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "javascript",
+    "callbacks",
+    "callback-hell",
+    "promises",
+    "async-await",
+    "promise-all",
+    "tutorial",
+    "domlok"
+  ],
+  "author": "Dhawal Mhatre (https://madebydhawal.com)",
+  "license": "MIT"
+}
